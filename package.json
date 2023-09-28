@@ -1,4 +1,8 @@
 {
+  "name": "nodejs_user_management",
+  "version": "1.0.0",
+  "description": "This is a project for learning basis.",
+  "main": "index.js",
   "dependencies": {
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
@@ -6,8 +10,15 @@
     "express-ejs-layouts": "^2.5.1",
     "express-flash-messages": "^0.1.1",
     "express-session": "^1.17.3",
-    "method": "^2.0.0",
     "method-override": "^3.0.0",
     "mongoose": "^7.5.3"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "satyum Singh Pathania",
+  "license": "ISC"
 }
